@@ -8,7 +8,7 @@ export default function FavoritesTrackList() {
     return (
           <S.MainCenterblock>
             <Search />
-            <S.CenterblockH2>Мои треки</S.CenterblockH2>
+            <S.CenterblockH2>Мои треки </S.CenterblockH2>
             <S.CenterblockContent>
               <PlaylistTitle/>
               <PlaylistContent arr={FavoritesArray}/>
